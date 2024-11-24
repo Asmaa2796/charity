@@ -5,7 +5,7 @@ const Contacts = () => {
     <>
       <div className="contact pt-3">
         <div className="container">
-          <ul className="list-unstyled py-0">
+          <ul className="list-unstyled p-0">
             {contacts && contacts.length >= 1 ? (
               contacts.map((li) => (
                 <li key={li.id}>
