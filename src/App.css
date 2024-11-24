@@ -281,8 +281,11 @@ a {
 }
 @media(max-width:576px) {
   .line-height {
-    font-size: 15px;
+    font-size: 12px;
 }
 .event-card {padding: 12px 9px;}
 .event-card img {height: 70px;}
+.service_card h5 {
+  font-size: 16px;
+}
 }
