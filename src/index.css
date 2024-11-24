@@ -1,0 +1,22 @@
+:root {
+  --dark-color: #091721;
+  --main-color: #e44712;
+}
+body::-webkit-scrollbar {
+  width: 10px; 
+}
+
+body::-webkit-scrollbar-track {
+  background: #fff; 
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);  
+  border-radius: 20px;  
+  border: 1px solid #ddd; 
+}
+body {
+margin: 0;
+position: relative;
+overflow-x: hidden;
+}
